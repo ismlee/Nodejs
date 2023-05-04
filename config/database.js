@@ -7,7 +7,7 @@ var config = {
     database: 'estore',
     connectionTimeout: 10000
 };
-
+// init into db
 // init database
 var pool = mysql.createPool(config);
 

@@ -1,9 +1,4 @@
 
---
--- Host: 127.0.0.1
--- Generation Time: Apr 06, 2022 at 11:18 AM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 7.4.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -131,7 +126,7 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`OrderID`, `UserID`, `AddressID`, `SubTotal`, `Discount`, `ShippingFee`, `Total`, `OrderDate`, `Status`) VALUES
-(1, 3, 3, '1254.69', '0.00', '0.00', '1254.69', '2022-04-06 16:51:10', 'Order Received');
+(1, 3, 3, '1254.69', '0.00', '0.00', '1254.69', '2023-04-06 16:51:10', 'Order Received');
 
 -- --------------------------------------------------------
 
